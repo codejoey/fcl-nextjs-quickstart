@@ -45,7 +45,7 @@ function Landing() {
       <div className="grid">
         <div>
           <h1>
-            Welcome to <Link href="https://docs.onflow.org">Web3</Link>
+            Welcome to <Link href="https://docs.onflow.org">FunSocks!</Link>
           </h1>
           <p>
             <Messages />

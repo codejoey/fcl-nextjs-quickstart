@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
     <div>
       <nav className="container header">
         <ul>
-          <li>Flow Demo</li>
+          <li>FunSocks</li>
         </ul>
         <ul>
           <li>
@@ -26,6 +26,12 @@ function MyApp({ Component, pageProps }) {
             <Component {...pageProps} />
           </AuthProvider>
         </TransactionProvider>
+        <iframe id="inlineFrameExample"
+            title="Inline Frame Example"
+            width="1200"
+            height="800"
+            src="https://funverse-socks.vercel.app/">
+        </iframe>
       </main>
       <footer className="container">
         <p>
