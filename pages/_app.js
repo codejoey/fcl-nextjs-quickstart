@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
         <iframe id="inlineFrameExample"
             title="Inline Frame Example"
             width="1200"
-            height="800"
+            height="1200"
             src="https://funverse-socks.vercel.app/">
         </iframe>
       </main>
